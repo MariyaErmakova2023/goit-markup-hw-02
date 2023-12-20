@@ -8,6 +8,20 @@ body {
   color: var(--SLATE, #434455);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -21,8 +35,7 @@ ul {
 .header-nav-item {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  /* 150% */
+  line-height: 1.5;  /* 150% */
   letter-spacing: 0.02em;
 }
 
