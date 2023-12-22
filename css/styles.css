@@ -30,11 +30,17 @@ ul {
 /**---------------HEADER------------------------*/
 
 .header-nav-item {
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
+}
+
+.header-nav-item:hover,
+.header-nav-item:focus {
+  color: #404bbf;
 }
 
 .logo {
@@ -58,7 +64,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+address {
+  font-style: normal
+}
 /*
 h1 {
   color: #fff;
