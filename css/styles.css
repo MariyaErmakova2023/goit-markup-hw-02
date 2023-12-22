@@ -55,15 +55,14 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+/*
 h1 {
   color: #fff;
   text-align: center;
-  /* Header 1 */
+  
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  /* 107.143% */
   letter-spacing: 0.02em;
   background: #2e2f42;
 }
@@ -80,7 +79,7 @@ h1 {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-}
+}*/
 /**---------------------------------------------*/
 
 /**---------------SECTION 1. HERO------------------------*/
@@ -99,7 +98,7 @@ h1 {
 .hero-button {
   background: #4d5ae5;
   color: #fff;
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -108,7 +107,7 @@ h1 {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /**---------------------------------------------*/
 
