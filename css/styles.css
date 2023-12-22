@@ -39,7 +39,7 @@ ul {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -71,21 +71,20 @@ h1 {
 }
 
 .button-order {
-  border-radius: 4px;
   background: #4d5ae5;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.04em;
 }
 
-.header-adress-link:hover, .header-adress-link:focus {
-color: #404bbf;
+.button-orde:hover, .button-orde:focus {
+background-color: #404bbf;
 }
 /**---------------------------------------------*/
 
-/**---------------HERO------------------------*/
+/**---------------SECTION 1. HERO------------------------*/
 
 .hero {
   background: #2e2f42;
@@ -99,7 +98,6 @@ color: #404bbf;
   letter-spacing: 0.02em;
 }
 .hero-button {
-  border-radius: 4px;
   background: #4d5ae5;
   color: #fff;
   font-family: Roboto;
@@ -114,7 +112,7 @@ color: #404bbf;
   }
 /**---------------------------------------------*/
 
-/**---------------SECTION 1. FEATURE------------------------*/
+/**---------------SECTION 2. FEATURE------------------------*/
 .featur-title {
 }
 .feature-list {
@@ -137,7 +135,7 @@ color: #404bbf;
 }
 /**---------------------------------------------*/
 
-/**---------------SECTION 2. TEAM------------------------*/
+/**---------------SECTION 3. TEAM------------------------*/
 .team {
   background: #f4f4fd;
 }
@@ -172,7 +170,7 @@ color: #404bbf;
 }
 /**---------------------------------------------*/
 
-/**---------------SECTION 3. PORTFOLIO------------------------*/
+/**---------------SECTION 4. PORTFOLIO------------------------*/
 
 .portfolio {
   
@@ -202,6 +200,10 @@ color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/**---------------------------------------------*/
+
+/**---------------FOOTER------------------------*/
 .footer {
   background: #2e2f42;
 }
