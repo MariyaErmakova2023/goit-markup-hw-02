@@ -28,9 +28,10 @@ ul {
 }
 
 .container {
-max-width: 1440px;
+max-width: 1158px;
 outline: 2px solid #f44336;
 margin: 0 auto;
+padding: 0 15px;
 
 }
 
